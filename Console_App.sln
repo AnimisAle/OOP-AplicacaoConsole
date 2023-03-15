@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula02Curso", "Aula02Curso\Aula02Curso.csproj", "{328CFE0D-1672-4B53-8730-431828E29B1B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrientadaAFuncoesSeparandoPorArquivos", "Aula02Curso\OrientadaAFuncoesSeparandoPorArquivos.csproj", "{328CFE0D-1672-4B53-8730-431828E29B1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Componentes", "Componente3\Componentes.csproj", "{43DD4ABC-02EA-44E1-86BE-AE3B694F73BD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{328CFE0D-1672-4B53-8730-431828E29B1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{328CFE0D-1672-4B53-8730-431828E29B1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{328CFE0D-1672-4B53-8730-431828E29B1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43DD4ABC-02EA-44E1-86BE-AE3B694F73BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43DD4ABC-02EA-44E1-86BE-AE3B694F73BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43DD4ABC-02EA-44E1-86BE-AE3B694F73BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43DD4ABC-02EA-44E1-86BE-AE3B694F73BD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
