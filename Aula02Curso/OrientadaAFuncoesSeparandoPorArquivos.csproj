@@ -34,6 +34,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -43,11 +44,33 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classes\Base.cs" />
+    <Compile Include="Classes\Cachorro.cs" />
+    <Compile Include="Classes\Animal.cs" />
+    <Compile Include="Classes\Cliente.cs" />
+    <Compile Include="Classes\Email.cs" />
+    <Compile Include="Classes\IPessoa.cs" />
+    <Compile Include="Classes\Fornecedor.cs" />
+    <Compile Include="Classes\Usuario.cs" />
+    <Compile Include="Diretorio\Arquivo.cs" />
+    <Compile Include="Calculo\Media.cs" />
+    <Compile Include="Funcoes\Genericas.cs" />
+    <Compile Include="Funcoes\Tabuada.cs" />
+    <Compile Include="Funcoes\TelaFornecedor.cs" />
+    <Compile Include="Funcoes\TelaUsuario.cs" />
+    <Compile Include="Funcoes\TelaCliente.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tela\Menu.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Componente3\Componentes.csproj">
+      <Project>{43dd4abc-02ea-44e1-86be-ae3b694f73bd}</Project>
+      <Name>Componentes</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
